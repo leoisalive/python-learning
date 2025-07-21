@@ -1,4 +1,9 @@
-# Ex01: Concatena duas strings e escreve o resultado invertido usando um loop.
+# author: Leonardo Luís
+# date: 2025-07-21
+# goal: Pratice strings in Python
+
+
+# Ex01: Concatenate two strings and print the reversed result using a loop.
 nome = "Leonardo"
 apelido = "Luís"
 
@@ -10,7 +15,7 @@ for char in resultado:
 print(output)
 
 
-# Ex02: Pede ao utilizador uma frase e conta quantos espaços tem.
+# Ex02: Asks the user for a sentence and counts how many spaces it has.
 frase = input("Digita uma frase: ")
 space_count = 0
 for char in frase:
@@ -20,7 +25,7 @@ for char in frase:
 print(f"A frase tem {space_count} espaços.")
 
 
-# Ex03: Transforma uma string em maiúsculas, depois só a primeira letra em maiúscula.
+# Ex03: Converts a string to uppercase, then only the first letter to uppercase.
 
 string = "gato preto"
 
