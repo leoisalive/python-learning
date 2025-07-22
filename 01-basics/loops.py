@@ -28,6 +28,7 @@ for i in range(1, 11):
 
 import random
 lancamentos = [random.randint(1, 6) for _ in range(10)]
+print(lancamentos)
 
 print("Contagem de lançamentos:")
 
